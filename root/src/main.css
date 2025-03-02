@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(0, 0, 0);
+    padding-bottom: 200px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 850px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+#header {
+    position: fixed;
+    width: 100%;
+    margin-top: -260px;
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(6px);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-logo img {
+    width: 76px;
+    height: 45px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.header-logo p {
+    font-size: 20px;
+}
+
+
+.header-search img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+
+/* SECTION  */
+
+.main-section {
+    padding-bottom: 14px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.296);
+}
+
+.main-section h1 {
+    margin-top: 260px;
+    font-size: 45px;
+}
+
+.rules-descr h2 {
+    margin-top: 42px;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.711);
+}
+
+.rules-descr p {
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.711);
+}
+
+
+.bottom-boxes {
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.bottom-boxes p {
+    font-size: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.164);
+    padding-bottom: 3px;
+}
